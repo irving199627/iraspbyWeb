@@ -1,0 +1,34 @@
+<div class="container grafica">
+    <div class="row">
+
+        <div class="col-2">
+            <fusioncharts width="200" height="350" type="thermometer" dataFormat="json" [dataSource]="_cds.tempCPU">
+            </fusioncharts>
+        </div>
+        <div class="col-2">
+
+        </div>
+        <div class="col-2">
+            <fusioncharts width="200" height="350" type="thermometer" dataFormat="json" [dataSource]="_cds.tempGPU">
+            </fusioncharts>
+        </div>
+        <div class="col-2">
+
+        </div>
+        <div class="col-4">
+            <fusioncharts width="400" height="200" type="hled" dataFormat="json" [dataSource]="_cds.HD">
+            </fusioncharts>
+        </div>
+    </div>
+    <div class="row medidores">
+        <div class="col-6">
+            <fusioncharts width="400" height="250" type="angulargauge" dataFormat="json" [dataSource]="_cds.RAM">
+            </fusioncharts>
+        </div>
+        <div class="col-6">
+            <fusioncharts width="400" height="250" type="angulargauge" dataFormat="json" [dataSource]="_cds.uso">
+            </fusioncharts>
+        </div>
+    </div>
+
+</div>

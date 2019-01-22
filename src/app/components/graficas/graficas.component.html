@@ -1,0 +1,15 @@
+<div class="container grafica">
+    <div class="row">
+        <div class="col-10">
+            <fusioncharts width="900" height="500" type="scrollline2d" [dataSource]="_cds.dataSource">
+            </fusioncharts>
+        </div>
+        <!-- <fusioncharts [width]="width" [height]="height" [type]="type" [dataFormat]="dataFormat" [dataSource]="dataSource2">
+        </fusioncharts> -->
+        <div class="col-2">
+            <fusioncharts width="200" height="400" type="thermometer" dataFormat="json" [dataSource]="_cds.data">
+            </fusioncharts>
+        </div>
+    </div>
+
+</div>

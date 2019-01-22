@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+.color {
+    background-color: #880e4f;
+}
+
+.grafica {
+    margin-top: 2%;
+}
+
+.medidores {
+    margin-top: 2%;
+}
+
+.imagen {
+    width: 100%;
+}
+
+.principal {
+    color: white;
+}
+
+.principal h1 {
+    text-align: center;
+}
